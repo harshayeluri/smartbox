@@ -1,0 +1,75 @@
+<html>
+<head>
+  <title>Sign Up</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <form style="border:1px">
+    <div class="container">
+        
+        <div class="form-group">
+        <label for="firstName"><b>First Name</b></label>
+        <input class="form-control" type="text" name="firstName" 
+        placeholder="Enter your First Name" required="required">
+        </div>
+
+        <div class="form-group">
+        <label for="middleName"><b>Middle Name</b></label>         
+        <input class="form-control" type="text" name="middleName" 
+        placeholder="Enter your Middle Name" >
+        </div>
+
+        <div class="form-group">
+        <label for="lastName"><b>Last Name</b></label> 
+        <input class="form-control" type="text" name="lastName" 
+        placeholder="Enter your Last Name" required="required" >
+        </div>
+
+        <div class="form-group">
+        <label><b> Gender</b>
+        <input  type="radio" name="gender" value="male" checked="checked">Male
+                    <input type="radio" name="gender" value="female">Female
+        </label>
+        </div>
+        
+        <div class="form-group">
+        <label for="username"><b>User Name</b></label> 
+        <input class="form-control" type="text" name="username"
+         placeholder="Enter your username">
+        </div>
+
+        <div class="form-group">
+        <label for="password"><b>Password</b></label> 
+        <input class="form-control" type="password" name="password"
+         placeholder="Enter your password">
+        </div>
+
+        <div class="form-group">
+        <label for="re_password"><b>Re-enter Your Password</b></label> 
+        <input class="form-control" type="password" name="re_password" 
+        placeholder="Enter your password">
+        </div>
+
+        <div class="form-group">
+        <label for="telephone"><b>Contact Number</b></label> 
+        <input class="form-control" type="text" name="telephone" placeholder="Enter your telephone number"/>        
+        </div>
+
+        <div class="form-group">
+        <label for="email"><b>Email</b></label>
+        <input class="form-control" type="email" name="email" placeholder="Enter your email"/>
+        </div>
+    </div>
+    <div>
+        <input class="btn btn-default center-block" type="submit" value="submit"/>
+    </div>
+    </form>
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

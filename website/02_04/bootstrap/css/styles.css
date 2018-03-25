@@ -1,0 +1,33 @@
+.icon {
+  max-width: 150px;
+  margin: 0 auto;
+  display: block;
+}
+
+.services section {
+  text-align: center;
+}
+
+.heading{
+	text-align: center;
+	font-weight: bold;
+	color: orange;
+	font-size: xx-large;
+	padding: 10px;
+}
+@media(min-width: 1200px){
+	h3{
+		margin-top: 0;
+		text-align: center;
+		padding-bottom: 10px;
+	}
+	.services section{
+		text-align: left;
+	}
+	a:link {
+    text-decoration: none;
+    color: black;
+    text-decoration-color: black;
+	}
+
+}
